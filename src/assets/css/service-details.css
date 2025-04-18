@@ -1,0 +1,224 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+}
+
+/* Service Details Section */
+.service-details {
+    padding: 120px 0 80px;
+    background-color: #f8f9fa;
+}
+
+.service-details .section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-details .section-heading h6 {
+    color: #ff7d3b;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.service-details .section-heading h4 {
+    color: #1e1e1e;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.service-item {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.service-item i {
+    color: #ff7d3b;
+    font-size: 50px;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.service-item h4 {
+    color: #1e1e1e;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.service-item p {
+    color: #5b5b5b;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.service-item ul {
+    margin: 0 0 25px 20px;
+    padding: 0;
+}
+
+.service-item ul li {
+    color: #5b5b5b;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 5px;
+}
+
+.service-item ul li:before {
+    content: "•";
+    color: #ff7d3b;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.service-item a {
+    color: #ff7d3b;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.service-item a:hover {
+    color: #e06526;
+    text-decoration: underline;
+}
+
+/* Service Request Form Section */
+.service-request {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #0b2154 0%, #001232 100%);
+}
+
+.service-request .section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-request .section-heading h6 {
+    color: #ff7d3b;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.service-request .section-heading h4 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+#service-request {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+#service-request label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#service-request input,
+#service-request textarea {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 25px;
+    transition: all 0.3s;
+}
+
+#service-request input:focus,
+#service-request textarea:focus {
+    border-color: #ff7d3b;
+    box-shadow: 0 0 10px rgba(255, 125, 59, 0.3);
+    outline: none;
+}
+
+#service-request input::placeholder,
+#service-request textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#service-request button.orange-button {
+    background-color: #ff7d3b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#service-request button.orange-button:hover {
+    background-color: #e06526;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Improved Responsiveness */
+@media (max-width: 991px) {
+
+    .service-details,
+    .service-request {
+        padding: 80px 0;
+    }
+
+    .service-details .section-heading h4,
+    .service-request .section-heading h4 {
+        font-size: 32px;
+    }
+
+    .service-item {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .service-details,
+    .service-request {
+        padding: 60px 0;
+    }
+
+    .service-details .section-heading h4,
+    .service-request .section-heading h4 {
+        font-size: 28px;
+    }
+
+    #service-request {
+        padding: 30px;
+    }
+}

@@ -1,0 +1,94 @@
+/* Estilo para os itens de informação */
+.info-item {
+    background-color: #f9f9f9;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.info-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.info-item i {
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.info-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.info-item a {
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.info-item a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o formulário de contato */
+.contact-us-form {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+}
+
+.contact-us-form .section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-us-form form {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+    width: 100%;
+    padding: 14px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    transition: border 0.3s;
+}
+
+.contact-us-form input:focus,
+.contact-us-form textarea:focus {
+    outline: none;
+    border-color: #ff6600;
+}
+
+.contact-us-form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contact-us-form .orange-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.contact-us-form .orange-button:hover {
+    background-color: #e65500;
+    cursor: pointer;
+}

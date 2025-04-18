@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="VIVA - Serviços de Análise de Vulnerabilidades e Segurança Digital">
+    <meta name="author" content="VIVA Security">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-574-mexant.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/service-details.css">
+</head>
+
+<body>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logo.png" alt="">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="sobre.html">Sobre Nós</a></li>
+                            <li><a href="servicos.html" class="active">Serviços</a></li>
+                            <li class="has-sub">
+                                <a href="javascript:void(0)">Mais</a>
+                                <ul class="sub-menu">
+                                    <li><a href="colaboradores.html">Colaboradores</a></li>
+                                    <li><a href="parceiros.html">Parcerias</a></li>
+                                    <li><a href="blog.html">Notícias</a></li>
+                                    <li><a href="eventos.html">Eventos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contato.html">Fale Conosco</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    <div class="page-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-text">
+                        <h2>Detalhes do Serviço</h2>
+                        <div class="div-dec"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Service Details Section Start ***** -->
+    <section class="service-details" id="service-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h6 id="titulo-servico"></h6>
+                        <h4 id="subtitulo-servico"></h4>
+                    </div>
+                </div>
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="service-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Descrição</h4>
+                        <p id="descricao-servico"></p>
+
+                        <h4>Benefícios</h4>
+                        <ul id="beneficios-servico"></ul>
+
+                        <h4>Como Acessar</h4>
+                        <p id="como-acessar"></p>
+
+                        <h4>Caso de Sucesso</h4>
+                        <p id="caso-sucesso"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Service Details Section End ***** -->
+    <!-- ***** Service Request Form Start ***** -->
+    <section class="service-request">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h6>Solicitação de Serviço</h6>
+                        <h4>Inicie Sua Análise de Vulnerabilidades</h4>
+                    </div>
+                </div>
+                <div class="col-lg-8 offset-lg-2">
+                    <form id="service-request" action="#" method="post">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <fieldset>
+                                    <label for="name">Seu Nome</label>
+                                    <input type="text" name="name" id="name" placeholder="Digite seu nome completo"
+                                        autocomplete="on" required>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-6">
+                                <fieldset>
+                                    <label for="email">Seu E-mail</label>
+                                    <input type="email" name="email" id="email"
+                                        placeholder="Digite seu e-mail corporativo" required>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-6">
+                                <fieldset>
+                                    <label for="phone">Telefone</label>
+                                    <input type="tel" name="phone" id="phone" placeholder="Digite seu telefone"
+                                        autocomplete="on">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-6">
+                                <fieldset>
+                                    <label for="company">Empresa</label>
+                                    <input type="text" name="company" id="company" placeholder="Nome da sua empresa"
+                                        autocomplete="on">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <label for="message">Sua Necessidade</label>
+                                    <textarea name="message" id="message"
+                                        placeholder="Descreva suas necessidades específicas de segurança ou dúvidas sobre o serviço"
+                                        rows="5"></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="orange-button">Solicitar
+                                        Análise</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Service Request Form End ***** -->
+
+    <!-- ***** Footer Start ***** -->
+    <footer class="footer-area pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <!-- Logo + Contato -->
+                <div class="col-md-4 text-center mb-4">
+                    <img src="assets/images/logo.png" alt="Logo VIVA" style="max-width: 160px;" class="mb-3">
+                    <p><i class="fas fa-map-marker-alt"></i> Rua das Acácias, 123 - Florianópolis, SC</p>
+                    <p><i class="fas fa-envelope"></i> <a
+                            href="mailto:contato@cooperativaviva.org.br">contato@cooperativaviva.org.br</a></p>
+                </div>
+                <!-- Links Rápidos -->
+                <div class="col-md-4 text-center mb-4">
+                    <h5>Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="colaboradores.html">Colaboradores</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <!-- Redes Sociais -->
+                <div class="col-md-4 text-center">
+                    <h5>Redes Sociais</h5>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Rodapé final -->
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 Cooperativa VIVA. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ***** Footer End ***** -S->
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/load-service.js"></script>
+    <script src="assets/js/alert-sucess.js"></script>
+</body>
+
+</html>

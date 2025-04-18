@@ -1,0 +1,80 @@
+[
+    {
+        "id": "analise-vulnerabilidades",
+        "nome": "Análise de Vulnerabilidades",
+        "subtitulo": "Identifique falhas antes que se tornem problemas.",
+        "descricao": "Avaliamos sua infraestrutura digital para identificar falhas de segurança antes que elas se tornem um problema.",
+        "beneficios": [
+            "Prevenção de ataques",
+            "Relatórios detalhados de riscos",
+            "Aprimoramento da segurança geral"
+        ],
+        "como_acessar": "Solicite pelo formulário de contato ou entre em contato com nossa equipe comercial.",
+        "caso_sucesso": "Reduzimos em 90% os pontos de vulnerabilidade em uma instituição pública em apenas 30 dias."
+    },
+    {
+        "id": "consultoria-seguranca",
+        "nome": "Consultoria em Segurança da Informação",
+        "subtitulo": "Apoio estratégico para conformidade e proteção.",
+        "descricao": "Apoio estratégico para empresas que desejam estruturar políticas de segurança eficientes e conformidade com LGPD.",
+        "beneficios": [
+            "Políticas de segurança personalizadas",
+            "Adequação à LGPD",
+            "Mitigação de riscos legais"
+        ],
+        "como_acessar": "Agende uma reunião com nossos consultores através do site.",
+        "caso_sucesso": "Uma fintech conseguiu aprovar auditorias de conformidade após nossa consultoria de 2 meses."
+    },
+    {
+        "id": "monitoramento-ameacas",
+        "nome": "Monitoramento de Ameaças",
+        "subtitulo": "Detecção e resposta proativas em tempo real.",
+        "descricao": "Serviço contínuo de detecção e resposta a incidentes, com alertas em tempo real sobre riscos e ataques.",
+        "beneficios": [
+            "Alertas imediatos",
+            "Proteção contínua",
+            "Equipe dedicada 24/7"
+        ],
+        "como_acessar": "Contratação via assinatura mensal com planos personalizados.",
+        "caso_sucesso": "Detectamos e neutralizamos uma ameaça antes de causar prejuízo a uma startup de tecnologia."
+    },
+    {
+        "id": "treinamento-conscientizacao",
+        "nome": "Treinamento de Conscientização",
+        "subtitulo": "Capacite sua equipe para evitar riscos cibernéticos.",
+        "descricao": "Capacitações para equipes, focadas em boas práticas de segurança, prevenção de phishing e uso seguro de tecnologias.",
+        "beneficios": [
+            "Redução de erros humanos",
+            "Equipe mais preparada",
+            "Material didático personalizado"
+        ],
+        "como_acessar": "Cursos online ou presenciais mediante agendamento.",
+        "caso_sucesso": "Após o treinamento, uma empresa relatou queda de 60% em incidentes de phishing."
+    },
+    {
+        "id": "gestao-acessos",
+        "nome": "Gestão de Acessos e Identidades",
+        "subtitulo": "Controle e proteção de informações sensíveis.",
+        "descricao": "Implementamos e monitoramos controles de acesso, garantindo que apenas pessoas autorizadas tenham acesso a informações sensíveis.",
+        "beneficios": [
+            "Controle rigoroso de permissões",
+            "Redução de vazamentos internos",
+            "Conformidade com auditorias"
+        ],
+        "como_acessar": "Implementação personalizada sob consulta.",
+        "caso_sucesso": "Controlamos o acesso em uma empresa com mais de 1000 colaboradores sem impactos operacionais."
+    },
+    {
+        "id": "backup-recuperacao",
+        "nome": "Backup Seguro e Recuperação",
+        "subtitulo": "Garanta a continuidade do seu negócio.",
+        "descricao": "Soluções de backup criptografado com políticas de recuperação rápida para garantir a continuidade do seu negócio.",
+        "beneficios": [
+            "Backups automatizados e seguros",
+            "Recuperação rápida de dados",
+            "Proteção contra ransomware"
+        ],
+        "como_acessar": "Planos mensais com armazenamento em nuvem ou local.",
+        "caso_sucesso": "Restauramos 100% dos dados de uma empresa após ataque ransomware em menos de 2 horas."
+    }
+]
